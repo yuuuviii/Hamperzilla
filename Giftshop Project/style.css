@@ -11,6 +11,10 @@ body {
     background-color: #F7F4EA;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
 
@@ -154,7 +158,7 @@ nav a {
     right: 0;
     position: absolute;
     margin-right: 100px;
-    margin-top: -570px;
+    margin-top: -350px;
     flex-shrink: 0;
     aspect-ratio: 789/826;
 }
@@ -167,7 +171,7 @@ nav a {
     font-weight: 400;
     position: relative;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 265px;
 }
 
 .custom {
@@ -204,4 +208,263 @@ nav a {
     box-shadow: rgb(230, 188, 188) 0px 0px 0px 0px;
     transform: translateY(2px);
     transition: 100ms;
+}
+
+
+.bgm {
+    width: 100%;
+    height: 707px;
+    flex-shrink: 0;
+    background-color: #E6BDBC;
+    margin-top: 100px;
+}
+
+.perfect-gift {
+    color: #000;
+    font-family: "Nohemi";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.title-him h2 {
+    margin-top: 50px;
+    color: #E6BDBC;
+    font-family: "Monosign";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    line-height: normal;
+    margin-left: 100px;
+}
+
+.title-him h3 {
+    position: absolute;
+    margin-top: -130px;
+    color: #000;
+    font-family: "Nohemi";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 478px;
+}
+
+.title-him a {
+    text-decoration: none;
+    color: black;
+    font-family: Nohemi;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    right: 100px;
+    margin-top: -120px;
+}
+
+.outer-wrapper {
+    padding-left: 100px;
+    /* Only the outer container has 100px from the left */
+    overflow-x: hidden;
+    /* prevent horizontal scroll if needed */
+}
+
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    /* exact spacing between cards */
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 400px;
+    height: 554px;
+    position: relative;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    border: 0;
+    flex: 0 0 auto;
+    /* Remove any margin-left: 100px from here if you had it earlier */
+}
+
+
+
+.container .box {
+    width: 400px;
+    height: auto;
+    /* ✅ auto height to fit content */
+    background-color: #f7f4ea;
+    border-radius: 15px;
+    position: relative;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    display: flex;
+    /* ✅ Make flex column */
+    flex-direction: column;
+    /* ✅ vertical stacking */
+    justify-content: space-between;
+}
+
+
+
+.container .box {
+    width: 400px;
+    height: 554px;
+    background-color: #f7f4ea;
+    border-radius: 15px;
+    position: relative;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+}
+
+.img img {
+    width: 392px;
+    height: 387px;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 15px 15px 0 0;
+}
+
+.name-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px 4px 0 4px;
+    font-family: "Nohemi";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product-name {
+    font-size: 24px;
+    margin: 0;
+}
+
+.price {
+    font-size: 24px;
+    margin: 0;
+}
+
+.product-desc {
+    margin-top: -10px;
+
+    font-size: 19.283px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 4px;
+    font-family: "Nohemi";
+}
+
+.buttom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+
+}
+
+
+.btn {
+    font-size: 18px;
+    font-family: "Nohemi";
+    width: 392px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    border: 0;
+    background-color: #E6BDBC;
+    transition: all 0.5s ease;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: auto;
+    /* push button to bottom naturally */
+}
+
+
+.custom {
+    width: 469px;
+    height: 112px;
+    margin-left: 100px;
+    padding: 30px 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 0;
+    background-color: #E6BDBC;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    font-size: 30px;
+    font-family: "Nohemi";
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    letter-spacing: 7px;
+    background-color: #F7F4EA;
+    color: black;
+    box-shadow: rgb(230, 188, 188) 0px 7px 29px 0px;
+}
+
+.btn:active {
+    letter-spacing: 7px;
+    background-color: #F7F4EA;
+    color: black;
+    box-shadow: rgb(230, 188, 188) 0px 0px 0px 0px;
+    transform: translateY(2px);
+    transition: 100ms;
+}
+
+.box:hover {
+    background-color: #F7F4EA;
+    color: black;
+    box-shadow: rgb(230, 188, 188) 0px 7px 29px 0px;
+}
+
+.title-her h2 {
+    margin-top: 50px;
+    color: #E6BDBC;
+    font-family: "Monosign";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    line-height: normal;
+    margin-left: 100px;
+}
+
+.title-her h3 {
+    position: absolute;
+    margin-top: -130px;
+    color: #000;
+    font-family: "Nohemi";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 478px;
+}
+
+.title-her a {
+    text-decoration: none;
+    color: black;
+    font-family: Nohemi;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    right: 100px;
+    margin-top: -120px;
 }
