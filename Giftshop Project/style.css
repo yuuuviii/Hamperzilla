@@ -251,8 +251,12 @@ nav a {
 }
 
 .outer-wrapper {
+    margin-top: -7vh;
+    margin-bottom: -7vh;
     padding-left: 5.2vw;
-    overflow-x: hidden;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    overflow: visible; /* ✅ this is important */
 }
 
 .product-wrapper {
@@ -270,6 +274,8 @@ nav a {
     cursor: pointer;
     border: 0;
     flex: 0 0 auto;
+    padding: 1vw 0; /* ✅ vertical space for top/bottom shadows */
+    overflow: visible; /* ✅ ensures shadow isn’t cut off */
 }
 
 .container .box {
@@ -280,27 +286,41 @@ nav a {
     position: relative;
     transition: all 0.5s ease;
     cursor: pointer;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 0.42vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 20px; /* ✅ visible now */
 }
+
+.container {
+    height: auto; /* let content define height */
+}
+.container .box {
+    height: auto; /* same here */
+    padding-bottom: 2vw; /* ✅ gives space below the content */
+    overflow: visible;   /* just in case */
+}
+
+
+
 
 
 .img img {
     width: 20.42vw;
-    height: 35.83vh;
-    margin: 0.205vw auto 0 auto; /* 🟢 Balanced top + auto sides */
+    height: 20.42vw; /* 👈 Same as width = perfect square */
+    margin: 0.205vw auto 0 auto;
     display: block;
     border-radius: 0.78vw 0.78vw 0 0;
+    object-fit: cover; /* 👈 Keeps image from stretching */
 }
-
 
 .name-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: -0.93vh 0.37vw 0 0.37vw;
+    margin: 1vw 0.5vw 0 0.5vw; /* ✅ removed negative margin */
     font-family: "Nohemi";
     font-style: normal;
     font-weight: 400;
@@ -318,42 +338,44 @@ nav a {
 }
 
 .product-desc {
-    margin-top: -0.93vh;
-    font-size: 1vw;
+    margin-top: 0.5vw; /* ✅ changed from -10px */
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 0.37vw;
+    margin-left: 0.5vw;
     font-family: "Nohemi";
 }
 
 .buttom {
     display: flex;
     justify-content: center;
-    margin-bottom: 0.37vh;
-    margin-left: 0.37vw;
-    width: 20.42vw;
+    width: 100%;
+    padding: 0 1vw;
+    box-sizing: border-box; /* ✅ prevents padding from overflowing */
 }
+
 
 .btn {
     display: inline-block;
     text-align: center;
     text-decoration: none;
     color: black;
-    font-size: 0.94vw;
+    font-size: 1.2vw;
     font-family: "Nohemi";
-    width: 20.42vw;
-    padding: 2.31vh 1.04vw;
-    border-radius: 5.2vw;
+    width: 95%; /* ✅ use percentage instead of fixed width */
+    padding: 1.3vw 0;
+    border-radius: 100px;
     border: 0;
     background-color: #E6BDBC;
     transition: all 0.5s ease;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 0.42vw;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
     cursor: pointer;
-    letter-spacing: 0.078vw;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin-top: auto;
+    margin: 1vw auto 0 auto; /* ✅ center and push from top */
 }
+
 
 .btn:hover {
     letter-spacing: 0.36vw;
