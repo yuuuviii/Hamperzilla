@@ -1,12 +1,6 @@
 @import url(https://db.onlinewebfonts.com/c/29ddb4605533a38e086b48fa105e0d12?family=Nohemi);
 @import url(https://db.onlinewebfonts.com/c/fb01d83c9fe1d39a2abfa34ee1f4cc5c?family=Monosign);
 
-/* font-family: "Nohemi"; */
-/* font-family: "Monosign"; */
-
-
-
-
 body {
     background-color: #F7F4EA;
 }
@@ -16,61 +10,54 @@ body {
     padding: 0;
 }
 
-
-
 /* NAVBAR */
-
-
 
 nav {
     font-family: "Nohemi";
     display: flex;
     align-items: center;
     width: 100%;
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .logo {
-    width: 190px;
-    height: 110px;
+    width: 9.9vw;
+    height: 10.19vh;
 }
-
 
 nav .logo {
-    width: 190px;
-    height: 110px;
+    width: 9.9vw;
+    height: 10.19vh;
     object-fit: cover;
-    margin-left: 100px;
+    margin-left: 5.2vw;
 }
-
 
 nav ul {
     list-style: none;
     display: flex;
-    margin-left: 100px;
+    margin-left: 11.2vw;
 }
-
 
 nav a {
     text-decoration: none;
     position: relative;
     color: black;
-    font-size: 24px;
-    padding: 20px;
+    font-size: 1.25vw;
+    padding: 1.04vh 2.04vh;
 }
-
-
 
 .box .vector {
     right: 0;
-    width: 40px;
-    height: 40px;
+    width: 2.08vw;
+    height: 3.7vh;
 }
-
 
 /* SEARCHBOX */
 
 .search {
-    margin: 0px 150px 0 200px;
+    margin: 0 5.81vw 0 10.42vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -83,17 +70,16 @@ nav a {
     background-color: #E6BDBC;
     border: none;
     color: #646464;
-    padding: 0.7rem 1rem;
-    border-radius: 30px;
-    width: 20em;
-    height: 2em;
-    transition: all ease-in-out .5s;
-    margin-right: -4rem;
+    padding: 0.64vh 0.52vw;
+    border-radius: 3vw;
+    width: 15.42vw;
+    height: 5.52vh;
+    transition: all ease-in-out 0.5s;
+    margin-right: -2.58vw;
 }
 
-.search__input:hover,
-.search__input:focus {
-    box-shadow: 0 0 1em #ffffff13;
+.search__input:hover {
+    box-shadow: 0 0 0.052vw #ffffff13;
 }
 
 .search__input:focus {
@@ -106,14 +92,14 @@ nav a {
     color: black;
 }
 
-.search__input:focus+.search__button {
+.search__input:focus + .search__button {
     background-color: #E6BDBC;
 }
 
 .search__button {
     border: none;
     background-color: #E6BDBC;
-    margin-top: .1em;
+    margin-top: 0.092vh;
 }
 
 .search__button:hover {
@@ -121,8 +107,8 @@ nav a {
 }
 
 .search__icon {
-    height: 40px;
-    width: 40px;
+    height: 3.7vh;
+    width: 2.08vw;
     fill: black;
 }
 
@@ -131,11 +117,11 @@ nav a {
 }
 
 .title-1 h2 {
-    margin-left: 100px;
-    margin-top: 40px;
+    margin-left: 5.2vw;
+    margin-top: 3.7vh;
     color: #000;
     font-family: "Nohemi";
-    font-size: 85px;
+    font-size: 4.43vw;
     font-style: normal;
     font-weight: 400;
 }
@@ -143,22 +129,21 @@ nav a {
 .title-1 h1 {
     color: #E6BDBC;
     font-family: "Monosign";
-    font-size: 250px;
+    font-size: 13.02vw;
     font-style: normal;
     font-weight: 400;
-    margin-top: -170px;
-    margin-left: 100px;
-
+    margin-top: -15.74vh;
+    margin-left: 5.2vw;
 }
 
 .img1 {
-    background: url(./img/duong-ngan-HURV8gwH_gE-unsplash.jpg) lightgray -0.048px -202.193px / 100.012% 143.249% no-repeat;
-    width: 789px;
-    height: 826px;
+    background: url(./img/duong-ngan-HURV8gwH_gE-unsplash.jpg) lightgray -0.0025vw -18.7vh / 100.012% 143.249% no-repeat;
+    width: 41.09vw;
+    height: 76.48vh;
     right: 0;
     position: absolute;
-    margin-right: 100px;
-    margin-top: -350px;
+    margin-right: 5.2vw;
+    margin-top: -32.4vh;
     flex-shrink: 0;
     aspect-ratio: 789/826;
 }
@@ -166,180 +151,156 @@ nav a {
 .desc1 p {
     color: #000;
     font-family: "Nohemi";
-    font-size: 48px;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 400;
     position: relative;
-    margin-left: 100px;
-    margin-top: 265px;
+    margin-left: 5.2vw;
+    margin-top: 24.53vh;
 }
 
 .custom {
-    width: 469px;
-    height: 112px;
-    margin-left: 100px;
-    padding: 30px 50px;
-    border-radius: 100px;
+    width: 24.42vw;
+    height: 10.37vh;
+    margin-left: 5.2vw;
+    padding: 2.78vh 2.6vw;
+    border-radius: 5.2vw;
     cursor: pointer;
     border: 0;
-    border-color: #E6BDBC;
     background-color: #E6BDBC;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    letter-spacing: 1.5px;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 0.42vw;
+    letter-spacing: 0.078vw;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.56vw;
     font-family: "Nohemi";
     color: white;
-
     transition: all 0.5s ease;
 }
 
 .custom:hover {
-    letter-spacing: 7px;
+    letter-spacing: 0.36vw;
     background-color: #F7F4EA;
     color: black;
-    box-shadow: rgb(230, 188, 188) 0px 7px 29px 0px;
+    box-shadow: rgb(230, 188, 188) 0px 0.65vh 1.48vh 0px;
 }
 
 .custom:active {
-    letter-spacing: 7px;
+    letter-spacing: 0.36vw;
     background-color: #F7F4EA;
     color: black;
     box-shadow: rgb(230, 188, 188) 0px 0px 0px 0px;
-    transform: translateY(2px);
+    transform: translateY(0.18vh);
     transition: 100ms;
 }
 
-
 .bgm {
     width: 100%;
-    height: 707px;
+    height: 65.5vh;
     flex-shrink: 0;
     background-color: #E6BDBC;
-    margin-top: 100px;
+    margin-top: 9.26vh;
 }
 
 .perfect-gift {
     color: #000;
     font-family: "Nohemi";
-    font-size: 48px;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     justify-content: center;
     display: flex;
-    margin-top: 50px;
+    margin-top: 4.63vh;
 }
 
 .title-him h2 {
-    margin-top: 50px;
+    margin-top: 4.63vh;
     color: #E6BDBC;
     font-family: "Monosign";
-    font-size: 128px;
+    font-size: 6.67vw;
     font-style: normal;
     font-weight: 400;
     position: relative;
     line-height: normal;
-    margin-left: 100px;
+    margin-left: 5.2vw;
 }
 
 .title-him h3 {
     position: absolute;
-    margin-top: -130px;
+    margin-top: -12.04vh;
     color: #000;
     font-family: "Nohemi";
-    font-size: 48px;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 478px;
+    margin-left: 24.9vw;
 }
 
 .title-him a {
     text-decoration: none;
     color: black;
     font-family: Nohemi;
-    font-size: 36px;
+    font-size: 1.88vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    right: 100px;
-    margin-top: -120px;
+    right: 5.2vw;
+    margin-top: -11.11vh;
 }
 
 .outer-wrapper {
-    padding-left: 100px;
-    /* Only the outer container has 100px from the left */
+    padding-left: 5.2vw;
     overflow-x: hidden;
-    /* prevent horizontal scroll if needed */
 }
 
 .product-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 35px;
-    /* exact spacing between cards */
+    gap: 1.82vw;
     box-sizing: border-box;
 }
 
-
 .container {
-    width: 400px;
-    height: 600px;
+    width: 21vw;
+    height: 55.56vh;
     position: relative;
     transition: all 0.5s ease;
     cursor: pointer;
     border: 0;
     flex: 0 0 auto;
-    /* Remove any margin-left: 100px from here if you had it earlier */
 }
 
-
-
 .container .box {
-    width: 400px;
-    height: auto;
-    /* ✅ auto height to fit content */
+    width: 21vw;
+    height: 51.3vh;
     background-color: #f7f4ea;
-    border-radius: 15px;
+    border-radius: 0.78vw;
     position: relative;
     transition: all 0.5s ease;
     cursor: pointer;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 0.42vw;
     display: flex;
-    /* ✅ Make flex column */
     flex-direction: column;
-    /* ✅ vertical stacking */
     justify-content: space-between;
 }
 
 
-
-.container .box {
-    width: 400px;
-    height: 554px;
-    background-color: #f7f4ea;
-    border-radius: 15px;
-    position: relative;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-}
-
 .img img {
-    width: 392px;
-    height: 387px;
-    margin-top: 4px;
-    margin-left: 4px;
-    border-radius: 15px 15px 0 0;
+    width: 20.42vw;
+    height: 35.83vh;
+    margin: 0.205vw auto 0 auto; /* 🟢 Balanced top + auto sides */
+    display: block;
+    border-radius: 0.78vw 0.78vw 0 0;
 }
+
 
 .name-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: -10px 4px 0 4px;
+    margin: -0.93vh 0.37vw 0 0.37vw;
     font-family: "Nohemi";
     font-style: normal;
     font-weight: 400;
@@ -347,128 +308,108 @@ nav a {
 }
 
 .product-name {
-    font-size: 24px;
+    font-size: 1.25vw;
     margin: 0;
 }
 
 .price {
-    font-size: 24px;
+    font-size: 1.25vw;
     margin: 0;
 }
 
 .product-desc {
-    margin-top: -10px;
-
-    font-size: 19.283px;
+    margin-top: -0.93vh;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 4px;
+    margin-left: 0.37vw;
     font-family: "Nohemi";
 }
 
 .buttom {
     display: flex;
     justify-content: center;
-    margin-bottom: 4px;
-    margin-left: 4px;
-    width: 392px;
+    margin-bottom: 0.37vh;
+    margin-left: 0.37vw;
+    width: 20.42vw;
 }
-
 
 .btn {
-    display: inline-block;  /* Makes the anchor act like a button */
+    display: inline-block;
     text-align: center;
-    text-decoration: none;  /* Removes underline from <a> tag */
-    color: black;           /* Reset color if needed */
-    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.94vw;
     font-family: "Nohemi";
-    width: 392px;
-    padding: 25px 20px;
-    border-radius: 100px;
+    width: 20.42vw;
+    padding: 2.31vh 1.04vw;
+    border-radius: 5.2vw;
     border: 0;
     background-color: #E6BDBC;
     transition: all 0.5s ease;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 0.42vw;
     cursor: pointer;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.078vw;
     text-transform: uppercase;
     margin-top: auto;
-    /* push button to bottom naturally */
-}
-
-
-.custom {
-    width: 469px;
-    height: 112px;
-    margin-left: 100px;
-    padding: 30px 50px;
-    border-radius: 100px;
-    cursor: pointer;
-    border: 0;
-    background-color: #E6BDBC;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    font-size: 30px;
-    font-family: "Nohemi";
-    color: white;
-    transition: all 0.5s ease;
 }
 
 .btn:hover {
-    letter-spacing: 7px;
+    letter-spacing: 0.36vw;
     background-color: #F7F4EA;
     color: black;
-    box-shadow: rgb(230, 188, 188) 0px 7px 29px 0px;
+    box-shadow: rgb(230, 188, 188) 0px 0.65vh 1.48vh 0px;
 }
 
 .btn:active {
-    letter-spacing: 7px;
+    letter-spacing: 0.36vw;
     background-color: #F7F4EA;
     color: black;
     box-shadow: rgb(230, 188, 188) 0px 0px 0px 0px;
-    transform: translateY(2px);
+    transform: translateY(0.18vh);
     transition: 100ms;
 }
 
 .box:hover {
     background-color: #F7F4EA;
     color: black;
-    box-shadow: rgb(230, 188, 188) 0px 7px 29px 0px;
+    box-shadow: rgb(230, 188, 188) 0px 0.65vh 1.48vh 0px;
 }
 
 .title-her h2 {
-    margin-top: 50px;
+    margin-top: 4.63vh;
     color: #E6BDBC;
     font-family: "Monosign";
-    font-size: 128px;
+    font-size: 6.67vw;
     font-style: normal;
     font-weight: 400;
     position: relative;
     line-height: normal;
-    margin-left: 100px;
+    margin-left: 5.2vw;
 }
 
 .title-her h3 {
     position: absolute;
-    margin-top: -130px;
+    margin-top: -12.04vh;
     color: #000;
     font-family: "Nohemi";
-    font-size: 48px;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 478px;
+    margin-left: 24.9vw;
 }
 
 .title-her a {
     text-decoration: none;
     color: black;
     font-family: Nohemi;
-    font-size: 36px;
+    font-size: 1.88vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    right: 100px;
-    margin-top: -120px;
+    right: 5.2vw;
+    margin-top: -11.11vh;
 }
