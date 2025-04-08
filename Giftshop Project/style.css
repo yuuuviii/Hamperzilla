@@ -126,6 +126,7 @@ nav a {
     font-weight: 400;
 }
 
+
 .title-1 h1 {
     color: #E6BDBC;
     font-family: "Monosign";
@@ -143,7 +144,7 @@ nav a {
     right: 0;
     position: absolute;
     margin-right: 5.2vw;
-    margin-top: -32.4vh;
+    margin-top: -36.4vh;
     flex-shrink: 0;
     aspect-ratio: 789/826;
 }
@@ -156,7 +157,7 @@ nav a {
     font-weight: 400;
     position: relative;
     margin-left: 5.2vw;
-    margin-top: 24.53vh;
+    margin-top: 19.53vh;
 }
 
 .custom {
@@ -227,7 +228,7 @@ nav a {
 
 .title-him h3 {
     position: absolute;
-    margin-top: -12.04vh;
+    margin-top: -14.04vh;
     color: #000;
     font-family: "Nohemi";
     font-size: 2.5vw;
@@ -240,14 +241,14 @@ nav a {
 .title-him a {
     text-decoration: none;
     color: black;
-    font-family: Nohemi;
+    font-family: "Nohemi";
     font-size: 1.88vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: absolute;
     right: 5.2vw;
-    margin-top: -11.11vh;
+    margin-top: -13.11vh;
 }
 
 .outer-wrapper {
@@ -413,7 +414,7 @@ nav a {
 
 .title-her h3 {
     position: absolute;
-    margin-top: -12.04vh;
+    margin-top: -14.04vh;
     color: #000;
     font-family: "Nohemi";
     font-size: 2.5vw;
@@ -426,12 +427,12 @@ nav a {
 .title-her a {
     text-decoration: none;
     color: black;
-    font-family: Nohemi;
+    font-family: "Nohemi";
     font-size: 1.88vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: absolute;
     right: 5.2vw;
-    margin-top: -11.11vh;
+    margin-top: -13.11vh;
 }
