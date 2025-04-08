@@ -286,11 +286,10 @@ nav a {
 
 .container {
     width: 400px;
-    height: 554px;
+    height: 600px;
     position: relative;
     transition: all 0.5s ease;
     cursor: pointer;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
     border: 0;
     flex: 0 0 auto;
     /* Remove any margin-left: 100px from here if you had it earlier */
@@ -372,16 +371,21 @@ nav a {
     display: flex;
     justify-content: center;
     margin-bottom: 4px;
-
+    margin-left: 4px;
+    width: 392px;
 }
 
 
 .btn {
+    display: inline-block;  /* Makes the anchor act like a button */
+    text-align: center;
+    text-decoration: none;  /* Removes underline from <a> tag */
+    color: black;           /* Reset color if needed */
     font-size: 18px;
     font-family: "Nohemi";
     width: 392px;
     padding: 25px 20px;
-    border-radius: 15px;
+    border-radius: 100px;
     border: 0;
     background-color: #E6BDBC;
     transition: all 0.5s ease;
