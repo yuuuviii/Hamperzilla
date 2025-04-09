@@ -212,7 +212,6 @@ nav{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -7vh;
     margin-bottom: -7vh;
     padding-top: 2vw;
     padding-bottom: 2vw;
@@ -278,15 +277,7 @@ nav{
     height: 10vh;
 }
 
-.slider-product-wrapper{
-    display: flex;
-    flex-direction: row;
-    gap: 1.82vw;
-    box-sizing: border-box;
-    position: absolute;
-    top: 6vh;
-    left: 50vw;
-}
+
 
 .title-him h2 {
     margin-top: 4.63vh;
@@ -510,3 +501,55 @@ nav{
     right: 5.2vw;
     margin-top: -13.11vh;
 }
+
+
+
+
+
+
+
+
+.section-2 {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+  .slider-product-wrapper {
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+    top: 6vh;
+    left: 0;
+    z-index: 2;
+    cursor: grab;
+  }
+  .slider-track {
+    display: flex;
+    gap: 1.82vw;
+    position: relative;
+    left: 50vw;
+    transform: translateX(0px);
+    transition: transform 0.3s ease;
+  }
+  .container {
+    min-width: 250px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+  .slider-product-wrapper,
+  .slider-product-wrapper * {
+    user-select: none;
+  }
+  .bgm-top,
+  .bgm-bottom {
+    position: absolute;
+    left: 2rem;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+  .bgm-top {
+    top: 2rem;
+  }
+  .bgm-bottom {
+    bottom: 2rem;
+  }
