@@ -279,44 +279,46 @@ nav{
 
 
 
-.title-him h2 {
-    margin-top: 4.63vh;
+.title-her h2 {
     color: #E6BDBC;
     font-family: "Monosign";
-    font-size: 6.67vw;
+    font-size: 5vw;
     font-style: normal;
     font-weight: 400;
-    position: relative;
     line-height: normal;
-    margin-left: 5.2vw;
 }
 
-.title-him h3 {
-    position: absolute;
-    margin-top: -14.04vh;
+.title-her h3 {
     color: #000;
     font-family: "Nohemi";
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 24.9vw;
 }
 
-.title-him a {
+.title-her a{ 
     text-decoration: none;
     color: black;
     font-family: "Nohemi";
-    font-size: 1.88vw;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
-    right: 5.2vw;
-    margin-top: -13.11vh;
 }
-
+.title-her{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vh;
+}
+.for-her{
+    height: 100vh;
+}
 .outer-wrapper {
+    height: 80vh;
     margin-top: -7vh;
     margin-bottom: -7vh;
     padding-left: 5.2vw;
@@ -334,7 +336,7 @@ nav{
 
 .container {
     width: 21vw;
-    height: 55.56vh;
+    height: 50vh;
     position: relative;
     transition: all 0.5s ease;
     cursor: pointer;
@@ -346,7 +348,8 @@ nav{
 
 .container .box {
     width: 21vw;
-    height: 51.3vh;
+    height: auto;
+    max-height: 75vh;
     background-color: #f7f4ea;
     border-radius: 0.78vw;
     position: relative;
@@ -365,8 +368,9 @@ nav{
 }
 .container .box {
     height: auto; /* same here */
-    padding-bottom: 2vw; /* ✅ gives space below the content */
+    padding-bottom: 1vw; /* ✅ gives space below the content */
     overflow: visible;   /* just in case */
+    min-height: 60vh; /* ensures minimum height for shadows */
 }
 
 
@@ -384,6 +388,8 @@ nav{
 
 .name-price {
     display: flex;
+    flex-direction: column;
+    gap: 15px;
     justify-content: space-between;
     align-items: center;
     margin: 1vw 0.5vw 0 0.5vw; /* ✅ removed negative margin */
@@ -401,14 +407,16 @@ nav{
 .price {
     font-size: 1.25vw;
     margin: 0;
+    color: #d7a8a7;
 }
 
 .product-desc {
     margin-top: 0.5vw; /* ✅ changed from -10px */
-    font-size: 1.2vw;
+    font-size: 0.8vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 10px;
     margin-left: 0.5vw;
     font-family: "Nohemi";
 }
@@ -465,43 +473,6 @@ nav{
     box-shadow: rgb(230, 188, 188) 0px 0.65vh 1.48vh 0px;
 }
 
-.title-her h2 {
-    margin-top: 4.63vh;
-    color: #E6BDBC;
-    font-family: "Monosign";
-    font-size: 6.67vw;
-    font-style: normal;
-    font-weight: 400;
-    position: relative;
-    line-height: normal;
-    margin-left: 5.2vw;
-}
-
-.title-her h3 {
-    position: absolute;
-    margin-top: -14.04vh;
-    color: #000;
-    font-family: "Nohemi";
-    font-size: 2.5vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 24.9vw;
-}
-
-.title-her a {
-    text-decoration: none;
-    color: black;
-    font-family: "Nohemi";
-    font-size: 1.88vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position: absolute;
-    right: 5.2vw;
-    margin-top: -13.11vh;
-}
-
 
 
 
@@ -518,7 +489,7 @@ nav{
     width: 100vw;
     overflow: hidden;
     position: absolute;
-    top: 6vh;
+    top: 2vh;
     left: 0;
     z-index: 2;
     cursor: grab;
