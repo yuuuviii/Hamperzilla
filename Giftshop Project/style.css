@@ -212,10 +212,9 @@ nav{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-bottom: -7vh;
     padding-top: 2vw;
     padding-bottom: 2vw;
-    height: 80vh;
+    height: 100vh;
     background-color: #E6BDBC;
 }
 .bgm-top {
@@ -312,7 +311,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vh;
+    padding: 2vh 10vh 0 10vh;
 }
 .for-her{
     height: 100vh;
@@ -493,6 +492,7 @@ nav{
     left: 0;
     z-index: 2;
     cursor: grab;
+    margin-top: 5vh;
   }
   .slider-track {
     display: flex;
