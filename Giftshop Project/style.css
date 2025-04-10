@@ -524,3 +524,59 @@ nav{
   .bgm-bottom {
     bottom: 2rem;
   }
+
+
+
+
+
+
+  .blocks-section {
+    padding: 20px;
+    background-color: #F7F4EA; /* Matches the website's background color */
+}
+
+.blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.block {
+    width: calc(25% - 20px); /* 4 blocks per row with spacing */
+    text-align: center;
+    text-decoration: none;
+    color: #000; /* Matches the text color of the website */
+    border: 1px solid #E6BDBC; /* Matches the website's accent color */
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-family: "Nohemi"; /* Matches the website's font */
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #E6BDBC; /* Adds a subtle divider */
+}
+
+.block p {
+    margin: 10px 0;
+    font-size: 1.2vw; /* Responsive font size */
+    font-weight: 400;
+    color: #E6BDBC; /* Matches the website's accent color */
+    font-family: "Nohemi"; /* Matches the website's font */
+}
+
+.block:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #E6BDBC; /* Adds hover effect with accent color */
+    color: #fff; /* Changes text color on hover */
+}
+
+.block:hover p {
+    color: #fff; /* Ensures text is visible on hover */
+}
