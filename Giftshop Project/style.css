@@ -67,7 +67,8 @@ nav a {
 
 .search__input {
     font-family: inherit;
-    font-size: clamp(0.4rem, 1.5vw, 1.2rem); /* Responsive font size */
+    font-size: clamp(0.4rem, 1.5vw, 1.2rem);
+    /* Responsive font size */
     background-color: #E6BDBC;
     border: none;
     color: #646464;
@@ -93,7 +94,7 @@ nav a {
     color: black;
 }
 
-.search__input:focus + .search__button {
+.search__input:focus+.search__button {
     background-color: #E6BDBC;
 }
 
@@ -112,12 +113,15 @@ nav a {
     width: 2.08vw;
     fill: black;
 }
-nav{
+
+nav {
     height: 8vh;
 }
-.section-1{
-    height:90vh;
+
+.section-1 {
+    height: 90vh;
 }
+
 .title-1 {
     position: relative;
 }
@@ -206,7 +210,8 @@ nav{
     transform: translateY(0.18vh);
     transition: 100ms;
 }
-.bgm{
+
+.bgm {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,19 +222,23 @@ nav{
     height: 100vh;
     background-color: #E6BDBC;
 }
-.review{
+
+.review {
     height: 60vh;
 }
+
 .bgm-top {
     width: 100%;
     position: absolute;
     top: 0;
 }
+
 .bgm-bottom {
     width: 100%;
     position: absolute;
     bottom: 0;
 }
+
 .bgm-top h2 {
     color: #ffffff;
     font-family: "Monosign";
@@ -241,6 +250,7 @@ nav{
     margin-left: 8vw;
     padding-top: 2vh;
 }
+
 .bgm-top h3 {
     position: absolute;
     color: #000;
@@ -253,11 +263,12 @@ nav{
     margin-top: 2vh;
     margin-left: 8vw;
 }
-.bgm-bottom h1{
+
+.bgm-bottom h1 {
     position: absolute;
     color: #000;
     font-family: "Nohemi";
-    font-size:3vw;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -272,7 +283,7 @@ nav{
     font-size: 2.5vw;
     font-style: normal;
     font-weight: 400;
-    position:fixed;
+    position: fixed;
     margin-left: 8vw;
     margin-top: -10vh;
     z-index: 1;
@@ -299,7 +310,7 @@ nav{
     line-height: normal;
 }
 
-.title-her a{ 
+.title-her a {
     text-decoration: none;
     color: black;
     font-family: "Nohemi";
@@ -308,7 +319,8 @@ nav{
     font-weight: 400;
     line-height: normal;
 }
-.title-her{
+
+.title-her {
     height: 20vh;
     display: flex;
     flex-direction: row;
@@ -316,9 +328,11 @@ nav{
     align-items: center;
     padding: 2vh 10vh 0 10vh;
 }
-.for-her{
+
+.for-her {
     height: 100vh;
 }
+
 .outer-wrapper {
     height: 80vh;
     margin-top: -7vh;
@@ -326,7 +340,8 @@ nav{
     padding-left: 5.2vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
-    overflow: visible; /* ✅ this is important */
+    overflow: visible;
+    /* ✅ this is important */
 }
 
 .product-wrapper {
@@ -344,8 +359,10 @@ nav{
     cursor: pointer;
     border: 0;
     flex: 0 0 auto;
-    padding: 1vw 0; /* ✅ vertical space for top/bottom shadows */
-    overflow: visible; /* ✅ ensures shadow isn’t cut off */
+    padding: 1vw 0;
+    /* ✅ vertical space for top/bottom shadows */
+    overflow: visible;
+    /* ✅ ensures shadow isn’t cut off */
 }
 
 .container .box {
@@ -362,30 +379,43 @@ nav{
     justify-content: space-between;
     margin-top: 1vw;
     margin-bottom: 1vw;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 20px; /* ✅ visible now */
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 20px;
+    /* ✅ visible now */
 }
 
 .container {
-    height: auto; /* let content define height */
-}
-.container .box {
-    height: auto; /* same here */
-    padding-bottom: 1vw; /* ✅ gives space below the content */
-    overflow: visible;   /* just in case */
-    min-height: 60vh; /* ensures minimum height for shadows */
+    height: auto;
+    /* let content define height */
 }
 
+.container .box {
+    height: auto;
+    /* same here */
+    padding-bottom: 1vw;
+    /* ✅ gives space below the content */
+    overflow: visible;
+    /* just in case */
+    min-height: 60vh;
+    /* ensures minimum height for shadows */
+}
+
+.container .box:hover {
+
+    transform: scale(1.05);
+}
 
 
 
 
 .img img {
     width: 20.42vw;
-    height: 20.42vw; /* 👈 Same as width = perfect square */
+    height: 20.42vw;
+    /* 👈 Same as width = perfect square */
     margin: 0.205vw auto 0 auto;
     display: block;
     border-radius: 0.78vw 0.78vw 0 0;
-    object-fit: cover; /* 👈 Keeps image from stretching */
+    object-fit: cover;
+    /* 👈 Keeps image from stretching */
 }
 
 .name-price {
@@ -394,7 +424,8 @@ nav{
     gap: 15px;
     justify-content: space-between;
     align-items: center;
-    margin: 1vw 0.5vw 0 0.5vw; /* ✅ removed negative margin */
+    margin: 1vw 0.5vw 0 0.5vw;
+    /* ✅ removed negative margin */
     font-family: "Nohemi";
     font-style: normal;
     font-weight: 400;
@@ -413,7 +444,8 @@ nav{
 }
 
 .product-desc {
-    margin-top: 0.5vw; /* ✅ changed from -10px */
+    margin-top: 0.5vw;
+    /* ✅ changed from -10px */
     font-size: 0.8vw;
     font-style: normal;
     font-weight: 400;
@@ -428,7 +460,8 @@ nav{
     justify-content: center;
     width: 100%;
     padding: 0 1vw;
-    box-sizing: border-box; /* ✅ prevents padding from overflowing */
+    box-sizing: border-box;
+    /* ✅ prevents padding from overflowing */
 }
 
 
@@ -439,7 +472,8 @@ nav{
     color: black;
     font-size: 1.2vw;
     font-family: "Nohemi";
-    width: 95%; /* ✅ use percentage instead of fixed width */
+    width: 95%;
+    /* ✅ use percentage instead of fixed width */
     padding: 1.3vw 0;
     border-radius: 100px;
     border: 0;
@@ -449,7 +483,8 @@ nav{
     cursor: pointer;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin: 1vw auto 0 auto; /* ✅ center and push from top */
+    margin: 1vw auto 0 auto;
+    /* ✅ center and push from top */
 }
 
 
@@ -486,8 +521,9 @@ nav{
     position: relative;
     overflow: hidden;
     height: 100vh;
-  }
-  .slider-product-wrapper {
+}
+
+.slider-product-wrapper {
     width: 100vw;
     overflow: hidden;
     position: absolute;
@@ -496,46 +532,53 @@ nav{
     z-index: 2;
     cursor: grab;
     margin-top: 5vh;
-  }
-  .slider-track {
+}
+
+.slider-track {
     display: flex;
     gap: 1.82vw;
     position: relative;
     left: 50vw;
     transform: translateX(0px);
     transition: transform 0.3s ease;
-  }
-  .container {
+}
+
+.container {
     min-width: 250px;
     flex-shrink: 0;
     box-sizing: border-box;
-  }
-  .slider-product-wrapper,
-  .slider-product-wrapper * {
+}
+
+.slider-product-wrapper,
+.slider-product-wrapper * {
     user-select: none;
-  }
-  .bgm-top,
-  .bgm-bottom {
+}
+
+.bgm-top,
+.bgm-bottom {
     position: absolute;
     left: 2rem;
     transition: opacity 0.3s ease;
     z-index: 1;
-  }
-  .bgm-top {
+}
+
+.bgm-top {
     top: 2rem;
-  }
-  .bgm-bottom {
+}
+
+.bgm-bottom {
     bottom: 2rem;
-  }
+}
 
 
 
 
 
 
-  .blocks-section {
+.blocks-section {
     padding: 20px;
-    background-color: #F7F4EA; /* Matches the website's background color */
+    background-color: #F7F4EA;
+    /* Matches the website's background color */
 }
 
 .blocks-container {
@@ -546,48 +589,237 @@ nav{
 }
 
 .block {
-    width: calc(16.6% - 20px); /* 4 blocks per row with spacing */
+    width: calc(16.6% - 20px);
+    /* 4 blocks per row with spacing */
     text-align: center;
     text-decoration: none;
-    color: #000; /* Matches the text color of the website */
-    border: 1px solid #E6BDBC; /* Matches the website's accent color */
+    color: #000;
+    /* Matches the text color of the website */
+    border: 1px solid #E6BDBC;
+    /* Matches the website's accent color */
     border-radius: 8px;
     overflow: hidden;
     background-color: #fff;
     transition: transform 0.3s, box-shadow 0.3s;
-    font-family: "Nohemi"; /* Matches the website's font */
-    height: 250px; /* Fixed height for uniformity */
+    font-family: "Nohemi";
+    /* Matches the website's font */
+    height: 250px;
+    /* Fixed height for uniformity */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.block {
+    height: auto;
+}
+
+
 .block img {
     width: 100%;
-    height: 200px; /* Fixed height for images */
-    object-fit: cover; /* Ensures images adjust without distortion */
+    aspect-ratio: 1 / 1;
+    /* Ensures square shape */
+    object-fit: cover;
     display: block;
-    border-bottom: 1px solid #E6BDBC; /* Adds a subtle divider */
+    border-bottom: 1px solid #E6BDBC;
 }
+
 
 .block p {
     margin: 10px 0;
     height: 20px;
-    font-size: 1.2vw; /* Responsive font size */
+    font-size: 1.2vw;
+    /* Responsive font size */
     font-weight: 400;
-    color: #E6BDBC; /* Matches the website's accent color */
-    font-family: "Nohemi"; /* Matches the website's font */
+    color: #E6BDBC;
+    /* Matches the website's accent color */
+    font-family: "Nohemi";
+    /* Matches the website's font */
 }
 
 .block:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #E6BDBC; /* Adds hover effect with accent color */
-    color: #fff; /* Changes text color on hover */
+    background-color: #E6BDBC;
+    /* Adds hover effect with accent color */
+    color: #fff;
+    /* Changes text color on hover */
 }
 
 .block:hover p {
-    color: #fff; /* Ensures text is visible on hover */
+    color: #fff;
+    /* Ensures text is visible on hover */
+}
+
+.bgm-review {
+    width: 120rem;
+    height: 47.0625rem;
+    flex-shrink: 0;
+    background-color: #E6BDBC;
+    display: flex;
+    justify-content: center;
+}
+
+.bgm-main-box {
+    margin-top: 2%;
+}
+
+.bgm-main-box h1 {
+    justify-content: center;
+    color: #000;
+    font-family: "Nohemi";
+    font-size: 300%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.review-img img{
+   height: 50%;
+   left: 0;
+   margin: 10%;
+   position: absolute;
+}
+
+.review-img p{
+    position: absolute;
+    color: #000;
+text-align: right;
+font-family: "Nohemi";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+right: 0;
+line-height: normal;
+margin: 15rem 17rem;
+width: 54.4375rem;
+height: 14rem;
+
+}
+
+.name-title h1{
+    color: #000;
+font-family: "Nohemi";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+right: 0;
+margin: 36rem 17rem;
+}
+
+.last-logo img{
+    width: 18.75rem;
+height: 10.875rem;
+flex-shrink: 0;
+aspect-ratio: 50/29;
+margin: 5rem 6.25rem;
+
+}
+
+.container1st{
+    position: absolute;
+    margin-top: -13rem;
+    margin-left: 46rem;
+}
+
+.container1st h3{
+    color: #000;
+font-family: "Nohemi";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;    
+}
+
+.container1st ul li{
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem auto;
+    list-style: none;
+    color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.container2nd{
+    margin-top: -13rem;
+    margin-left: 73rem;
+}
+
+.container2nd h3{
+    color: #000;
+    font-family: "Nohemi";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container2nd ul li{
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem auto;
+    list-style: none;
+    color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.container3rd{
+    margin-top: -20.5rem;
+    margin-left: 97rem;
+}
+
+.container3rd h3{
+    color: #000;
+    font-family: "Nohemi";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container3rd ul li{
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem auto;
+    list-style: none;
+    color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.sign-up{
+    position: absolute;
+    margin-left: 6.25rem;
+    margin-top: -8rem;
+}
+
+.sign-up h2{
+    color: #000;
+font-family: "Nohemi";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.sign-up p{
+    color: #000;
+font-family: "Nohemi";
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: .69rem;
 }
 
 
