@@ -813,7 +813,7 @@ line-height: normal;
 }
 
 .sign-up p{
-    color: #000;
+color: #000;
 font-family: "Nohemi";
 font-size: 1.25rem;
 font-style: normal;
@@ -821,19 +821,3 @@ font-weight: 400;
 line-height: normal;
 margin-top: .69rem;
 }
-
-
-
-
-
-
-
-
-
-footer{
-    height: 40vh;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-}
-.
