@@ -217,6 +217,9 @@ nav{
     height: 100vh;
     background-color: #E6BDBC;
 }
+.review{
+    height: 60vh;
+}
 .bgm-top {
     width: 100%;
     position: absolute;
@@ -543,7 +546,7 @@ nav{
 }
 
 .block {
-    width: calc(25% - 20px); /* 4 blocks per row with spacing */
+    width: calc(16.6% - 20px); /* 4 blocks per row with spacing */
     text-align: center;
     text-decoration: none;
     color: #000; /* Matches the text color of the website */
@@ -553,17 +556,23 @@ nav{
     background-color: #fff;
     transition: transform 0.3s, box-shadow 0.3s;
     font-family: "Nohemi"; /* Matches the website's font */
+    height: 250px; /* Fixed height for uniformity */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .block img {
     width: 100%;
-    height: auto;
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures images adjust without distortion */
     display: block;
     border-bottom: 1px solid #E6BDBC; /* Adds a subtle divider */
 }
 
 .block p {
     margin: 10px 0;
+    height: 20px;
     font-size: 1.2vw; /* Responsive font size */
     font-weight: 400;
     color: #E6BDBC; /* Matches the website's accent color */
