@@ -589,3 +589,19 @@ nav{
 .block:hover p {
     color: #fff; /* Ensures text is visible on hover */
 }
+
+
+
+
+
+
+
+
+
+footer{
+    height: 40vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.
