@@ -403,10 +403,6 @@ nav {
 
     transform: scale(1.05);
 }
-
-
-
-
 .img img {
     width: 20.42vw;
     height: 20.42vw;
@@ -653,11 +649,12 @@ nav {
 
 .bgm-review {
     width: 120rem;
-    height: 47.0625rem;
+    height: 95vh;
     flex-shrink: 0;
     background-color: #E6BDBC;
     display: flex;
     justify-content: center;
+    margin-top: 20vh;
 }
 
 .bgm-main-box {
@@ -672,6 +669,7 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 .review-img img{
@@ -681,7 +679,7 @@ nav {
    position: absolute;
 }
 
-.review-img p{
+.review-img p{  
     position: absolute;
     color: #000;
 text-align: right;
