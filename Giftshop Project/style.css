@@ -344,12 +344,6 @@ nav {
     /* ✅ this is important */
 }
 
-.product-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.82vw;
-    box-sizing: border-box;
-}
 
 .container {
     width: 21vw;
@@ -365,6 +359,12 @@ nav {
     /* ✅ ensures shadow isn’t cut off */
 }
 
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.82vw;
+    box-sizing: border-box;
+}
 .container .box {
     width: 21vw;
     height: auto;
@@ -819,3 +819,104 @@ font-weight: 400;
 line-height: normal;
 margin-top: .69rem;
 }
+
+
+/* =============================================================================================================================*/
+/* =============================================================================================================================*/
+/*  */
+/*                                                all products Page   
+/*  */
+/* =============================================================================================================================*/
+/* =============================================================================================================================*/
+
+/********************
+*****jump section*****
+*********************/
+#jump {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#jump .jump-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90vw;
+    transition: 0.3s ease;
+}
+
+
+#jump .jump-icon:hover {
+    box-shadow: 20px 20px 30px #f6bdb2;
+    scale: 1.02;
+}
+
+#jump .jump-container img {
+    height: 100px;
+    width: 100px;
+}
+
+#jump .jump-container h4 {
+    padding: 20px 0;
+    font-family: "Nohemi"; /* Matches your website's font */
+    color: #000; /* Matches your website's text color */
+}
+
+#jump .jump-container .jump-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 175px;
+    width: 175px;
+    border: 1px solid #fb9885;
+    border-radius: 50%;
+    background-color: #f7f4ea; /* Matches your website's background */
+    transition: 0.3s ease;
+
+    flex: 1 1 calc(16.66% - 20px); /* 16.66% width for 6 items per row, minusspacing */
+    box-sizing: border-box;
+    text-align: center; /* Center align content */
+
+}
+
+#jump .jump-container .jump-icon a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 175px;
+    width: 175px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/********************
+*****Title*****
+*********************/
+.title-all {
+    height: 20vh;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.title-all h2 {
+    color: whitesmoke;
+    background-color: #E6BDBC;
+    width: 90vw;
+    border-radius: 100px;
+    font-family: "Monosign";
+    font-size: 14vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+/********************
+*****products section*****
+*********************/
