@@ -4,6 +4,7 @@
 body {
     background-color: #F7F4EA;
     overflow-x: hidden;
+    overflow-y: visible;
 }
 
 * {
@@ -127,10 +128,11 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
     background-color: #E6BDBC;
-    width: 45%;
-    height: 224.7vh;
+    box-shadow: 0 0 0 3vh #ec9f9e;
+    border-radius:  25px;
+    width: 44%;
     position: relative;
     left: 3.25%;
 }
@@ -176,9 +178,11 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
     background-color: #E6BDBC;
-    width: 45%;
+    box-shadow: 0 0 0 3vh #ec9f9e;
+    border-radius:  25px;
+    width: 44%;
     position: absolute;
     right: 3.25%;
     top: 12%;
@@ -219,4 +223,9 @@ nav {
     text-align: justify;
     line-height: 1.2;
 
+}
+
+.refund:hover, .shipping:hover {
+    box-shadow: 0 0 0 3vh #ec9f9e, 0 0 20px #ec9f9e; 
+    transition: all 0.3s ease-in-out;
 }
