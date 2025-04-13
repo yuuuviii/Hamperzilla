@@ -1,0 +1,173 @@
+@import url(https://db.onlinewebfonts.com/c/29ddb4605533a38e086b48fa105e0d12?family=Nohemi);
+@import url(https://db.onlinewebfonts.com/c/fb01d83c9fe1d39a2abfa34ee1f4cc5c?family=Monosign);
+
+body {
+    background-color: #F7F4EA;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* NAVBAR */
+
+nav {
+    font-family: "Nohemi";
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.logo {
+    width: 9.9vw;
+    height: 10.19vh;
+}
+
+nav .logo {
+    width: 9.9vw;
+    height: 10.19vh;
+    object-fit: cover;
+    margin-left: 5.2vw;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 11.2vw;
+}
+
+nav a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 1.25vw;
+    padding: 1.04vh 2.04vh;
+}
+
+.box .vector {
+    right: 0;
+    width: 2.08vw;
+    height: 3.7vh;
+}
+
+/* SEARCHBOX */
+
+.search {
+    margin: 0 5.81vw 0 10.42vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.search__input {
+    font-family: inherit;
+    font-size: clamp(0.4rem, 1.5vw, 1.2rem);
+    /* Responsive font size */
+    background-color: #E6BDBC;
+    border: none;
+    color: #646464;
+    padding: 0.64vh 0.52vw;
+    border-radius: 3vw;
+    width: 15.42vw;
+    height: 5.52vh;
+    transition: all ease-in-out 0.5s;
+    margin-right: -2.58vw;
+}
+
+.search__input:hover {
+    box-shadow: 0 0 0.052vw #ffffff13;
+}
+
+.search__input:focus {
+    outline: none;
+    background-color: #E6BDBC;
+}
+
+.search__input::-webkit-input-placeholder {
+    font-weight: 100rem;
+    color: black;
+}
+
+.search__input:focus+.search__button {
+    background-color: #E6BDBC;
+}
+
+.search__button {
+    border: none;
+    background-color: #E6BDBC;
+    margin-top: 0.092vh;
+}
+
+.search__button:hover {
+    cursor: pointer;
+}
+
+.search__icon {
+    height: 3.7vh;
+    width: 2.08vw;
+    fill: black;
+}
+
+nav {
+    height: 8vh;
+}
+
+.refund{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.refund h2{
+    font-family: "Nohemi";
+    font-size: 2.5vw;
+    color: #000000;
+    background-color: #E6BDBC;
+    width: 100%;
+    text-align: center;
+    padding: 3vh 0;
+    margin-top: 3vh;
+}
+
+.overview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.overview h3{
+    font-family: "Nohemi";
+    font-size: 2vw;
+    color: #000000;
+    width: 60%;
+    text-align: left;
+    padding: 3vh 0;
+    margin-top: 1vh;
+}
+
+.overview p{
+    font-family: "Nohemi";
+    font-size: 1.2vw;
+    color: #000000;
+    width: 60%;
+    text-align: left;
+    padding: 3vh 0;
+    margin-top: 1vh;
+}
+
