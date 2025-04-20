@@ -90,3 +90,48 @@ function updateFade() {
   bgmTop.style.opacity = opacity;
   bgmBottom.style.opacity = opacity;
 }
+
+
+
+/*Search Bar*/
+fetch('products.json')
+  .then(res => res.json())
+  .then(products => {
+    const fuse = new Fuse(products, {
+      keys: ['name', 'tags'],
+      threshold: 0.4
+    });
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      const results = fuse.search(e.target.value);
+      const output = document.getElementById('searchResults');
+      output.innerHTML = '';
+
+      if (results.length > 0) {
+        output.style.display = 'block';
+        results.forEach(r => {
+          const li = document.createElement('li');
+
+          const img = document.createElement('img');
+          img.src = r.item.image;
+          img.alt = r.item.name;
+          img.className = 'result-img';
+
+          const span = document.createElement('span');
+          span.textContent = r.item.name;
+
+          li.appendChild(img);
+          li.appendChild(span);
+
+          // ✅ Add redirect on click here
+          li.addEventListener('click', () => {
+            window.location.href = `product.html?id=${r.item.id}`;
+          });
+
+          output.appendChild(li);
+        });
+      } else {
+        output.style.display = 'none';
+      }
+    });
+  });

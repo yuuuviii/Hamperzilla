@@ -63,7 +63,9 @@ nav a {
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    position: relative; /* Yeh zaroori hai */
 }
+
 
 .search__input {
     font-family: inherit;
@@ -112,6 +114,68 @@ nav a {
     height: 3.7vh;
     width: 2.08vw;
     fill: black;
+}
+
+#searchResults {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%; /* Same as search bar */
+    z-index: 1000; /* Above everything */
+    margin-top: 0.5vh;
+    padding: 1vh 1vw;
+    list-style: none;
+    background-color: #fef7f6;
+    border-radius: 1vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    overflow-y: auto;
+    max-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    display: none; /* Initially hidden */
+}
+#searchResults::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+#searchResults li {
+    padding: 0.8vh 0.5vw;
+    border-bottom: 1px solid #e6bdbc70;
+    font-size: clamp(0.6rem, 1.2vw, 1rem);
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#searchResults li:last-child {
+    border-bottom: none;
+}
+
+#searchResults li:hover {
+    background-color: #e6bdbc4a; /* Light peach on hover */
+}
+
+.searchResults{
+    margin-left: 0;
+}
+
+#searchResults li {
+    display: flex;
+    align-items: center;
+    gap: 0.8vw;
+    padding: 0.8vh 0.5vw;
+    border-bottom: 1px solid #e6bdbc70;
+    font-size: clamp(0.6rem, 1.2vw, 1rem);
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#searchResults li img.result-img {
+    width: 2.4vw;
+    height: 2.4vw;
+    object-fit: cover;
+    border-radius: 0.5vw;
 }
 
 nav {

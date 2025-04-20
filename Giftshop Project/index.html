@@ -19,16 +19,17 @@
             <li><a href="">Addons</a></li>
         </ul>
         <div class="search">
-            <input type="text" class="search__input" placeholder="Search here">
+            <input type="text" class="search__input" id="searchInput" placeholder="Search here">
             <button class="search__button">
                 <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
                     <g>
                         <path
-                            d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
-                        </path>
-                    </g>
-                </svg>
-            </button>
+                        d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                    </path>
+                </g>
+            </svg>
+        </button>
+        <ul id="searchResults" class="searchResults"></ul>
         </div>
         <div class="box"><a href=""><img class="vector"
                     src="shopping_bag_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" /></a></div>
@@ -37,7 +38,6 @@
     </nav>
 
     <!-- Section 1 -->
-
     <div class="section-1">
         <div class="title-1">
             <h2>Make Your Custom</h2>
@@ -54,7 +54,6 @@
     </div>
 
     <!-- SECTION 2 -->
-
     <div class="section-2">
         <div class="bgm">
             <div class="bgm-top">
@@ -179,6 +178,8 @@
     <section class="section-3">
         <p class="perfect-gift">Pick the perfect gift hamper that matches their unique style and personality!</p>
     </section>
+    
+    <!-- SECTION 4 -->
     <section class="section-4">
         <div class="for-her">
             <div class="title-her">
@@ -189,6 +190,7 @@
                 <div class="product-wrapper">
                     <div class="container">
                         <div class="box">
+                            <a href="product/product.html?id=101">
                             <div class="img"><img src="allimg/hampers/h6 1.jpg" alt=""></div>
                             <div class="name-price">
                                 <div class="product-name">Croc Leather 4 PC's combo</div>
@@ -198,6 +200,7 @@
                             <div class="buttom">
                                 <a href="sproduct.html?id=105" class="btn">Buy Now</a>
                             </div>
+                            </a>
                         </div>
                     </div>
                     <div class="container">
@@ -458,5 +461,6 @@
         </footer>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 </body>
 </html>
