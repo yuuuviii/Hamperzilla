@@ -1,125 +1,124 @@
 [
-  {
+    {
       "id": 101,
       "name": "Mini Hamper For Him",
       "category": "Hampers",
       "tags": ["mini hamper", "him", "temperature flask", "wallet", "led keychain", "metal mug", "pen", "chocolate"],
-      "image": "allimg/hampers/h1 1.jpg",
-      "smallimg": ["allimg/hampers/h1 1.jpg", "allimg/hampers/h1 2.jpg"],
+      "image": "/Giftshop Project/allimg/hampers/h1 1.jpg",
+      "smallimg": ["/Giftshop Project/allimg/hampers/h1 1.jpg", "/Giftshop Project/allimg/hampers/h1 2.jpg"],
       "description": "⭐ Product - Mini Hamper For Him\n\n⭐ Price - 1100 + Ship 80\n\n⭐ Includes:\n• Temperature Flask\n• Faux Wallet\n• LED Keychain\n• Metal Mug (250 ml)\n• Metal Pen\n• Silk Chocolate\n\n⭐ Scope of any name can be customised on all products except chocolate.\n\n⭐ All come in box packing.\n\n⭐ High quality product.\n\n⭐ Making time 1-2 days."
-  },
-  {
+    },
+    {
       "id": 102,
       "name": "Essential Hamper For Him",
       "category": "Hampers",
       "tags": ["essential hamper", "him", "leather", "wallet", "eyewear case", "passport cover", "keychain", "pen"],
-      "image": "allimg/hampers/h2 1.jpg",
-      "smallimg": ["allimg/hampers/h2 1.jpg"],
+      "image": "/Giftshop Project/allimg/hampers/h2 1.jpg",
+      "smallimg": ["/Giftshop Project/allimg/hampers/h2 1.jpg"],
       "description": "⭐ Product - Imported Leather 5 PC's Combo For Him\n\n⭐ Price - 1100 Free Ship\n\n⭐ Material - High Quality Imported Leather\n\n⭐ Includes:\n• Wallet\n• Eyewear Case\n• Passport Cover\n• Keychain\n• Pen\n\n⭐ Scope of any name can be customised on all 5 products.\n\n⭐ Charm and color options available.\n\n⭐ Making time 1-2 days."
-  },
-  {
+    },
+    {
       "id": 103,
       "name": "Mens Essential Hamper",
       "category": "Hampers",
       "tags": ["mens hamper", "wallet", "hook keychain", "pen", "flask", "steel cup", "deo", "chocolate"],
-      "image": "allimg/hampers/h3 1.jpg",
-      "smallimg": ["allimg/hampers/h3 1.jpg", "allimg/hampers/h3 2.jpg"],
+      "image": "/Giftshop Project/allimg/hampers/h3 1.jpg",
+      "smallimg": ["/Giftshop Project/allimg/hampers/h3 1.jpg", "/Giftshop Project/allimg/hampers/h3 2.jpg"],
       "description": "⭐ Product - Mens Essential Hamper 1.0\n\n⭐ Price - 1499 Free Shipping\n\n⭐ Includes:\n• Faux Leather Premium Wallet\n• Hook Keychain\n• Pen\n• LED Temperature Flask\n• Steel Cup\n• Fogg Deo\n• Heart Chocolate\n\n⭐ All come in one box.\n\n⭐ Scope of any name can be customised on wallet, keychain, cup, pen, flask.\n\n⭐ Color options available in wallet and hook keychain. Charm options available.\n\n⭐ Making time 1-2 days.\n\n⭐ Dispatch via DTDC Air or Bluedart."
-  },
-  {
+    },
+    {
       "id": 104,
       "name": "Premium 9 in 1 Wallet Hamper",
       "category": "Hampers",
       "tags": ["premium hamper", "wallet", "led flask", "earphone cover", "passport cover", "diary", "pen", "chocolates"],
-      "image": "allimg/hampers/h4 1.jpg",
-      "smallimg": ["allimg/hampers/h4 1.jpg"],
+      "image": "/Giftshop Project/allimg/hampers/h4 1.jpg",
+      "smallimg": ["/Giftshop Project/allimg/hampers/h4 1.jpg"],
       "description": "⭐ Product - Premium 9 in 1 Wallet Hamper\n\n⭐ Price - 2100 Including Shipping\n\n⭐ Includes:\n• LED Flask\n• Earphone Cover\n• Eyewear Case\n• Passport Cover\n• Wallet\n• Keychain\n• 200-Page A5 Diary\n• Cross Pen\n• 2 Chocolates\n\n⭐ Scope of any name can be customised on all products.\n\n⭐ Material - Faux Leather\n\n⭐ Making time 1-2 days."
-  },
-  {
+    },
+    {
       "id": 105,
       "name": "Professional Combo Set",
       "category": "Hampers",
       "tags": ["professional combo", "pen stand", "diary", "flask", "card holder", "pen", "keychain"],
-      "image": "allimg/hampers/h5 1.jpg",
-      "smallimg": ["allimg/hampers/h5 1.jpg"],
+      "image": "/Giftshop Project/allimg/hampers/h5 1.jpg",
+      "smallimg": ["/Giftshop Project/allimg/hampers/h5 1.jpg"],
       "description": "⭐ Product - Professional Combo Set\n\n⭐ Includes:\n• MDF Pen Stand\n• Leather Diary\n• Vacuumed Flask\n• Card Holder\n• Pen\n• Keychain\n\n⭐ All come in proper box packing.\n\n⭐ Price - 1699 Free Shipping\n\n⭐ Scope of any name can be customised on diary, pen, keychain, card holder, pen stand, flask.\n\n⭐ Making time 1-3 days.\n\n⭐ Trend in market post fast. Order fast!"
-  },
-  {
+    },
+    {
       "id": 106,
       "name": "Mens Essential Hamper",
       "category": "Hampers",
       "tags": ["mens hamper", "croc leather", "wallet", "passport cover", "keychain", "eyewear case"],
-      "image": "allimg/hampers/h6 1.jpg",
+      "image": "/Giftshop Project/allimg/hampers/h6 1.jpg",
       "smallimg": [
-          "allimg/hampers/h6 1.jpg",
-          "allimg/hampers/h6 2.jpg",
-          "allimg/hampers/h6 3.jpg",
-          "allimg/hampers/h6 a.jpg"
+        "/Giftshop Project/allimg/hampers/h6 1.jpg",
+        "/Giftshop Project/allimg/hampers/h6 2.jpg",
+        "/Giftshop Project/allimg/hampers/h6 3.jpg",
+        "/Giftshop Project/allimg/hampers/h6 a.jpg"
       ],
       "description": "⭐ Product - New Croc Leather 4 PC's Combo\n\n⭐ Offer Price - 1100 Free Shipping\n\n⭐ Includes:\n• Croc Leather Wallet\n• Croc Keychain\n• Croc Passport Cover\n• Eyewear Case\n\n⭐ All come in proper box packing.\n\n⭐ Available in 3 colors:\n• Black\n• Tan\n• Brown\n\n⭐ Scope of any name can be customised. Charms and color options available.\n\n⭐ Making time 1-2 days."
-  },
-  {
+    },
+    {
       "id": 107,
       "name": "Customisable Hamper with Photo Frame",
       "category": "Hampers",
       "tags": ["customise", "photo frame", "wallet", "pen", "perfume", "bottle", "mug", "keychain", "card", "chocolate"],
-      "image": "allimg/hampers/h7 1.jpg",
-      "smallimg": ["allimg/hampers/h7 1.jpg", "allimg/hampers/h7 v.mp4"],
+      "image": "/Giftshop Project/allimg/hampers/h7 1.jpg",
+      "smallimg": ["/Giftshop Project/allimg/hampers/h7 1.jpg", "/Giftshop Project/allimg/hampers/h7 v.mp4"],
       "description": "❤️ CUSTOMIZE HAMPER\n\nIncludes:\n• Temperature Bottle\n• Men's Wallet\n• Silver Parker Pen\n• Photo/Quote Frame\n• Bellavita Luxury Perfume\n• Sober Mug\n• Metal Keychain\n• Heart Chocolate\n• Birthday / Anniversary Card\n\nPrice: 1550/- Free Shipping\n\nMaking Time: 2 Working Days\n\n❤️ Best Quality Provided"
-  },
-  {
+    },
+    {
       "id": 108,
       "name": "Customisable Hamper with Gold Rose",
       "category": "Hampers",
       "tags": ["customise", "gold rose", "wallet", "pen", "mug", "belt", "watch", "card", "chocolate"],
-      "image": "allimg/hampers/h8 1.jpg",
-      "smallimg": ["allimg/hampers/h8 1.jpg", "allimg/hampers/h8 v.jpg"],
+      "image": "/Giftshop Project/allimg/hampers/h8 1.jpg",
+      "smallimg": ["/Giftshop Project/allimg/hampers/h8 1.jpg", "/Giftshop Project/allimg/hampers/h8 v.jpg"],
       "description": "❤️ CUSTOMIZE HAMPER\n\nIncludes:\n• Temperature Bottle\n• Men's Wallet\n• Gold Pen\n• Sober Mug\n• Wallet Card\n• Heart Chocolate\n• Belt\n• Birthday / Anniversary Card\n• Golden Rose\n• Heavy Quality Watch\n• Fairy Light\n\nPrice: 1499/- Free Shipping\n\nMaking Time: 2 Working Days\n\n❤️ Best Quality Provided"
-  },
-  {
+    },
+    {
       "id": 109,
       "name": "Customisable Hamper with Shirt",
       "category": "Hampers",
       "tags": ["customise", "shirt", "wallet", "perfume", "belt", "card", "lights"],
-      "image": "allimg/hampers/h9 1.jpg",
-      "smallimg": ["allimg/hampers/h9 1.jpg", "allimg/hampers/h9 v.mp4"],
+      "image": "/Giftshop Project/allimg/hampers/h9 1.jpg",
+      "smallimg": ["/Giftshop Project/allimg/hampers/h9 1.jpg", "/Giftshop Project/allimg/hampers/h9 v.mp4"],
       "description": "❤️ CUSTOMIZE HAMPER\n\nIncludes:\n• Temperature Bottle\n• Men's Wallet\n• Fogg Perfume\n• Belt\n• Premium Quality Shirt\n• Fairy Lights\n• Birthday / Anniversary Card\n\nPrice: 1499/- Free Shipping\n\nMaking Time: 2 Working Days\n\n❤️ Best Quality Provided"
-  },
-  {
+    },
+    {
       "id": 110,
       "name": "Wooden Box Hamper",
       "category": "Hampers",
       "tags": ["wooden box", "wallet", "keychain", "chocolates", "valentine", "custom box", "themes"],
-      "image": "allimg/hampers/h10 1.jpg",
+      "image": "/Giftshop Project/allimg/hampers/h10 1.jpg",
       "smallimg": [
-          "allimg/hampers/h10 1.jpg",
-          "allimg/hampers/h10 2.jpg",
-          "allimg/hampers/h10 3.jpg",
-          "allimg/hampers/h10 a.jpg"
+        "/Giftshop Project/allimg/hampers/h10 1.jpg",
+        "/Giftshop Project/allimg/hampers/h10 2.jpg",
+        "/Giftshop Project/allimg/hampers/h10 3.jpg",
+        "/Giftshop Project/allimg/hampers/h10 a.jpg"
       ],
       "description": "⭐ Product - Wooden Box Hamper\n\n⭐ Price - 840 + Ship 70\n\n⭐ Best Gift Option for Valentine, Birthday, Anniversary, etc.\n\n⭐ Includes:\n• Wallet\n• Keychain\n• Heart Chocolate\n• 2 KitKat Chocolates\n\n⭐ Scope of any name can be customised on wallet and keychain. Photo and text can be customised on the box.\n\n⭐ 4 types of themes available for the box.\n\n⭐ Wallets available in 7 colors.\n\n⭐ Making time 1-2 days."
-  },
-  {
+    },
+    {
       "id": 111,
       "name": "Customisable Hamper with Shirt",
       "category": "Hampers",
       "tags": ["customise", "shirt", "wallet", "perfume", "roses", "golden rose", "card", "lights"],
-      "image": "allimg/hampers/h11 1.jpg",
-      "smallimg": ["allimg/hampers/h11 1.jpg", "allimg/hampers/h11 v.mp4"],
+      "image": "/Giftshop Project/allimg/hampers/h11 1.jpg",
+      "smallimg": ["/Giftshop Project/allimg/hampers/h11 1.jpg", "/Giftshop Project/allimg/hampers/h11 v.mp4"],
       "description": "❤️ CUSTOMIZE HAMPER\n\nIncludes:\n• Temperature Bottle\n• Men's Wallet\n• Dairy Milk Hazelnut\n• Birthday / Anniversary Card\n• Fairy Light\n• Premium Quality Shirt\n• Park Avenue Amazon Wood Perfume (MRP-420)\n• Artificial Roses\n• Golden Rose\n\nPrice: 1799/- Free Shipping\n\nMaking Time: 2-3 Working Days\n\n❤️ Best Quality Provided"
-  },    
-  {
-    "id": 112,
-    "name": "Customisable Hamper with Watch",
-    "category": "Hampers",
-    "tags": ["customise", "watch", "wallet", "perfume", "belt", "sunglass", "pen", "card", "keychain", "trunk box"],
-    "image": "allimg/hampers/h12 1.jpg",
-    "smallimg": [
-      "allimg/hampers/h12 1.jpg",
-      "allimg/hampers/h12v.mp4"
-    ],
-    "description": "❤️❤️❤️❤️❤️❤️\nCUSTOMIZE HAMPER\n\nIncludes:\n<ul>\n<li>• Temperature Bottle</li>\n<li>• Men's Wallet</li>\n<li>• Birthday / Anniversary Card</li>\n<li>• Fairy Light</li>\n<li>• Bellavita Luxury Perfume</li>\n<li>• Watch</li>\n<li>• Silver Pen</li>\n<li>• Belt</li>\n<li>• Sunglass</li>\n<li>• Metal Keychain</li>\n<li>• Trunk Box</li>\n</ul>\n\nPrice: 1999/- Free Shipping.\n\nMaking Time: 2-3 Working Days\n\n❤️❤️❤️❤️❤️❤️\n\nBest Quality Provided\n\nOFFER WILL BE VALID TILL 10TH DECEMBER\n\nORDER MORE SAVE MORE✨"
-  }
-]
-
-
+    },
+    {
+      "id": 112,
+      "name": "Customisable Hamper with Watch",
+      "category": "Hampers",
+      "tags": ["customise", "watch", "wallet", "perfume", "belt", "sunglass", "pen", "card", "keychain", "trunk box"],
+      "image": "/Giftshop Project/allimg/hampers/h12 1.jpg",
+      "smallimg": [
+        "/Giftshop Project/allimg/hampers/h12 1.jpg",
+        "/Giftshop Project/allimg/hampers/h12v.mp4"
+      ],
+      "description": "❤️❤️❤️❤️❤️❤️\nCUSTOMIZE HAMPER\n\nIncludes:\n<ul>\n<li>• Temperature Bottle</li>\n<li>• Men's Wallet</li>\n<li>• Birthday / Anniversary Card</li>\n<li>• Fairy Light</li>\n<li>• Bellavita Luxury Perfume</li>\n<li>• Watch</li>\n<li>• Silver Pen</li>\n<li>• Belt</li>\n<li>• Sunglass</li>\n<li>• Metal Keychain</li>\n<li>• Trunk Box</li>\n</ul>\n\nPrice: 1999/- Free Shipping.\n\nMaking Time: 2-3 Working Days\n\n❤️❤️❤️❤️❤️❤️\n\nBest Quality Provided\n\nOFFER WILL BE VALID TILL 10TH DECEMBER\n\nORDER MORE SAVE MORE✨"
+    }
+  ]
+  

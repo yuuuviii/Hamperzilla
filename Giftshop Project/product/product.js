@@ -1,42 +1,56 @@
-// Fetch product data from products.json
-fetch('/Giftshop Project/products.json')
-  .then((response) => response.json())
-  .then((products) => {
-    // Get the product ID from the URL query parameter
-    const urlParams = new URLSearchParams(window.location.search);
-    const productId = parseInt(urlParams.get('id'), 10);
+document.addEventListener("DOMContentLoaded", function () {
+  const urlParams = new URLSearchParams(window.location.search);
+  const productId = urlParams.get('id');
 
-    // Find the product with the matching ID
-    const productData = products.find((product) => product.id === productId);
+  fetch('/Giftshop Project/products.json')
+      .then(response => response.json())
+      .then(products => {
+          const product = products.find(p => p.id == productId);
+          if (product) {
+              const bigMediaWrapper = document.querySelector('.big-media-wrapper');
+              const smallImagesContainer = document.getElementById('small-images-container');
 
-    if (productData) {
-      // Populate product details
-      document.getElementById("productName").textContent = productData.name;
-      document.getElementById("productPrice").textContent = productData.price;
-      document.getElementById("productDescription").textContent = productData.description;
-      document.getElementById("mainImage").src = productData.image;
+              // Set initial big media
+              bigMediaWrapper.innerHTML = `<img id="product-image" src="${product.image}" alt="${product.name}">`;
 
-      // Populate thumbnails
-      const thumbnailContainer = document.getElementById("thumbnailContainer");
-      productData.smallimg.forEach((image) => {
-        const img = document.createElement("img");
-        img.src = image;
-        img.alt = "Thumbnail";
-        img.addEventListener("click", () => {
-          document.getElementById("mainImage").src = image;
-        });
-        thumbnailContainer.appendChild(img);
-      });
+              document.getElementById('product-name').textContent = product.name;
+              document.getElementById('product-category').textContent = product.category;
+              document.getElementById('product-price').textContent = product.price;
+              document.getElementById('product-discription').innerHTML = product.description.replace(/\n/g, '<br>');
 
-      // Add to Cart button functionality
-      document.getElementById("addToCartButton").textContent = "Add to Cart";
-      document.getElementById("addToCartButton").addEventListener("click", () => {
-        alert(`${productData.name} has been added to your cart!`);
-      });
-    } else {
-      console.error("Product not found!");
-    }
-  })
-  .catch((error) => {
-    console.error("Error fetching product data:", error);
-  });
+
+              // Clear and populate small media
+              smallImagesContainer.innerHTML = '';
+
+              product.smallimg.forEach(mediaSrc => {
+                  const isVideo = mediaSrc.endsWith('.mp4') || mediaSrc.endsWith('.webm') || mediaSrc.endsWith('.ogg');
+
+                  if (isVideo) {
+                      const videoElement = document.createElement('video');
+                      videoElement.src = mediaSrc;
+                      videoElement.muted = true;
+                      videoElement.autoplay = true;
+                      videoElement.loop = true;
+                      videoElement.style.objectFit = 'cover';
+                      videoElement.addEventListener('click', () => {
+                          bigMediaWrapper.innerHTML = `<video id="product-image" src="${mediaSrc}" autoplay muted loop style="object-fit: cover;"></video>`;
+                      });
+
+                      smallImagesContainer.appendChild(videoElement);
+                  } else {
+                      const imgElement = document.createElement('img');
+                      imgElement.src = mediaSrc;
+                      imgElement.alt = `Small image of ${product.name}`;
+                      imgElement.addEventListener('click', () => {
+                          bigMediaWrapper.innerHTML = `<img id="product-image" src="${mediaSrc}" alt="${product.name}" style="object-fit: cover;">`;
+                      });
+
+                      smallImagesContainer.appendChild(imgElement);
+                  }
+              });
+          } else {
+              document.getElementById('prodetails').textContent = 'Product not found';
+          }
+      })
+      .catch(error => console.error('Error fetching product data:', error));
+});

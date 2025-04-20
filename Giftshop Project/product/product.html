@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Product Page</title>
-  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="/Giftshop Project/product/product.css">
   <link rel="stylesheet" href="/Giftshop Project/style.css">
 </head>
 <body>
@@ -35,23 +35,27 @@
                     src="/Giftshop Project/account_circle_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" /></a></div>
       </nav>
 
-      <div class="product-container">
-        <!-- Left Container -->
-        <div class="left-container">
-          <img id="mainImage" src="placeholder.jpg" alt="Product Image" class="main-image">
-          <div class="thumbnail-container" id="thumbnailContainer">
-            <!-- Thumbnails will be dynamically added here -->
-          </div>
+  <!-- ===================== -->
+  <!--   Prodetails Section    -->
+  <!-- ===================== -->
+  <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <div class="big-media-wrapper">
+            <img id="product-image" src="" alt="Big image">
         </div>
-    
-        <!-- Right Container -->
-        <div class="right-container">
-          <h1 id="productName"></h1>
-          <p id="productPrice"></p>
-          <p id="productDescription"></p>
-          <button id="addToCartButton"></button>
+        <div class="small-img-group" id="small-images-container">
+            <!-- Small images and videos will be dynamically added here -->
         </div>
-      </div>
+    </div>
+    <div class="single-pro-details">
+        <h4 id="product-name"></h4>
+        <h2 id="product-category"></h2>
+        <span id="product-price"></span>
+        <button class="normal">Place order</button>
+        <h4>Product Details</h4>
+        <h5 id="product-discription"></h5>
+    </div>
+  </section>
 
       <div class="footer">
         <footer>

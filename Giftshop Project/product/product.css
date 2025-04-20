@@ -1,76 +1,103 @@
+/* =============================================================================================================================*/
+/*  */
+/*                                                Sproduct.html   
+/*  */
+/* =============================================================================================================================*/
+/* ======================== */
+/* -------Single Product ------- */
+/* ========================= */
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+}
 
-  .product-container {
-    display: flex;
-    max-width: 1200px;
-    width: 100%;
-    background: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .left-container {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .main-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
-  
-  .thumbnail-container {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-  }
-  
-  .thumbnail-container img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 4px;
-    cursor: pointer;
-    border: 2px solid transparent;
-  }
-  
-  .thumbnail-container img:hover {
-    border-color: #007bff;
-  }
-  
-  .right-container {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .right-container h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .right-container p {
-    margin: 10px 0;
-  }
-  
-  #addToCartButton {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  #addToCartButton:hover {
-    background-color: #0056b3;
-  }
+#prodetails .single-pro-image {
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping for better handling of multiple images */
+  gap: 10px; /* Adds spacing between images */
+}
+
+.small-img-group img {
+  width: 100px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+  width: 50%;
+  padding-top: 30px;
+}
+#prodetails .single-pro-details h4 {
+  padding: 15px 0 10px 0;
+}
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+}
+#prodetails .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .single-pro-details button {
+  background-color: #f6bdb2;
+  color: white;
+}
+#prodetails .single-pro-details :focus {
+  outline: none;
+}
+
+#prodetails .single-pro-details span {
+  line-height: 40px;
+  font-weight: 500;
+}
+
+/* Wrapper for big media */
+.big-media-wrapper {
+  width: 100%;
+  max-width:500px; /* Adjust as per design */
+  max-height: 600px; /* Ensures square aspect ratio */
+  overflow: hidden; /* Crops the content inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Big image or video styling */
+.big-media-wrapper img,
+.big-media-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crops content to fit 1:1 */
+}
+
+/* Small image and video thumbnails */
+.small-img-group video,
+.small-img-group img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* Ensures content is cropped to fit square */
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Adjustments for video thumbnails */
+.small-img-group video {
+  border: 2px solid #ccc;
+  border-radius: 5px; /* Optional styling for rounded corners */
+}
