@@ -4,6 +4,7 @@
 body {
     background-color: #F7F4EA;
     overflow-x: hidden;
+    
 }
 
 * {
@@ -771,6 +772,10 @@ right: 0;
 margin: 36rem 17rem;
 }
 
+.footer{
+    padding-bottom: 5%;
+}
+
 .last-logo img{
     width: 18.75rem;
 height: 10.875rem;
@@ -821,7 +826,7 @@ line-height: normal;
     line-height: normal;
 }
 
-.container2nd ul li{
+.container2nd ul li {
     margin: 2.5rem 0 2.5rem 0;
     padding: 2.5rem auto;
     list-style: none;
@@ -831,6 +836,12 @@ font-size: 1.5rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+text-decoration: none;
+}
+
+.container2nd ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 .container3rd{
@@ -857,6 +868,12 @@ font-size: 1.5rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+text-decoration: none;
+}
+
+.container3rd ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 .sign-up{
@@ -985,3 +1002,11 @@ margin-top: .69rem;
 /********************
 *****products section*****
 *********************/
+
+html{
+    scroll-behavior: smooth;
+}
+
+smooth-scroll {
+    scroll-behavior: smooth;
+}

@@ -1,103 +1,487 @@
-/* =============================================================================================================================*/
-/*  */
-/*                                                Sproduct.html   
-/*  */
-/* =============================================================================================================================*/
-/* ======================== */
-/* -------Single Product ------- */
-/* ========================= */
-#prodetails {
+@import url(https://db.onlinewebfonts.com/c/29ddb4605533a38e086b48fa105e0d12?family=Nohemi);
+@import url(https://db.onlinewebfonts.com/c/fb01d83c9fe1d39a2abfa34ee1f4cc5c?family=Monosign);
+
+
+#main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#producttails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Nohemi', sans-serif;
+    height: auto;
+}
+
+#image-section{
+  margin-left: 150px;
+  margin-top: 50px;
   display: flex;
-  margin-top: 20px;
+  flex-direction: column;
+  position: sticky;
 }
 
-#prodetails .single-pro-image {
-  width: 40%;
-  margin-right: 50px;
+.single-pro-image img{
+  aspect-ratio: 1/1;
+  width: 35%;
 }
 
-.small-img-group {
-  display: flex;
-  flex-wrap: wrap; /* Allows wrapping for better handling of multiple images */
-  gap: 10px; /* Adds spacing between images */
-}
-
-.small-img-group img {
-  width: 100px;
-  object-fit: cover;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#prodetails .single-pro-details {
-  width: 50%;
-  padding-top: 30px;
-}
-#prodetails .single-pro-details h4 {
-  padding: 15px 0 10px 0;
-}
-#prodetails .single-pro-details h2 {
-  font-size: 26px;
-}
-#prodetails .single-pro-details select {
-  display: block;
-  padding: 5px 10px;
-  margin-bottom: 10px;
-}
-
-#prodetails .single-pro-details input {
-  width: 50px;
-  height: 47px;
-  padding-left: 10px;
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-#prodetails .single-pro-details button {
-  background-color: #f6bdb2;
-  color: white;
-}
-#prodetails .single-pro-details :focus {
-  outline: none;
-}
-
-#prodetails .single-pro-details span {
-  line-height: 40px;
-  font-weight: 500;
-}
-
-/* Wrapper for big media */
-.big-media-wrapper {
-  width: 100%;
-  max-width:500px; /* Adjust as per design */
-  max-height: 600px; /* Ensures square aspect ratio */
-  overflow: hidden; /* Crops the content inside */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Big image or video styling */
-.big-media-wrapper img,
-.big-media-wrapper video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Crops content to fit 1:1 */
-}
-
-/* Small image and video thumbnails */
-.small-img-group video,
-.small-img-group img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover; /* Ensures content is cropped to fit square */
+.small-images img{
+  aspect-ratio: 1/1;
+  width: 6%;
   margin: 5px;
-  cursor: pointer;
 }
 
-/* Adjustments for video thumbnails */
-.small-img-group video {
-  border: 2px solid #ccc;
-  border-radius: 5px; /* Optional styling for rounded corners */
+#detials-section{
+width: 40%;
+position: relative;
+display: flex;
+flex-direction: column;
+margin-top: -38.8%;
+right: -50%;
+
+}
+
+.product-title h1{
+  color: #000;
+font-family: "Nohemi";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.product-desc p{
+color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: -2.5%;
+}
+
+.product-price h3{
+  color: #000;
+font-family: "Nohemi";
+font-size: 3rem;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.product-tax h6{
+  color: #000;
+font-family: "Nohemi";
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#customers-choices{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding: 20px;
+  border-color: #E6BDBC;
+  margin-top: 40px;
+  line-height: 70px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Nohemi', sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+.every-item h2{
+  color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 4.5;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  margin-top: 10px;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 30px;
+  box-shadow: 0.2em 0.2em black;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 20px;
+  left: 0.3em;
+  bottom: 0.3em;
+  background-color: white;
+  transition: .4s;
+}
+
+.switch input:checked + .slider {
+  background-color: #09ff00b0;
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0.2em 0.2em black;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(1.5em);
+}
+
+.name-to-mention h2{
+  color: #000;
+  font-family: "Nohemi";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.formField {
+  margin-top: 10px;
+  position: relative;
+}
+
+.formField input {
+  width: 80%;
+  padding: 20px ;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #E6BDBC;
+  color: black;
+  font-size: 20px;
+  font-weight: 550;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 0 5px transparent;
+  font-family: 'Nohemi', sans-serif;
+}
+
+.formField input:hover,
+.formField input:focus {
+  box-shadow: 0 0 0 2px #333;
+}
+
+.wallet-charm h2{
+  margin-top: 40px;
+  color: #000;
+  font-family: "Nohemi";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#charms-names{
+  margin-top: 10px;
+  position: relative;
+}
+
+#charms-names{
+  width: 85%;
+  padding: 20px ;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #E6BDBC;
+  color: black;
+  font-size: 20px;
+  font-weight: 550;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 0 5px transparent;
+  font-family: 'Nohemi', sans-serif;
+}
+
+
+
+.keychains h2{
+  margin-top: 40px;
+  color: #000;
+  font-family: "Nohemi";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+#keychain-types{
+  margin-top: 10px;
+  position: relative;
+}
+
+#keychain-types{
+  width: 85%;
+  padding: 20px ;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #E6BDBC;
+  color: black;
+  font-size: 20px;
+  font-weight: 550;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 0 5px transparent;
+  font-family: 'Nohemi', sans-serif;
+}
+
+.buy-now {
+  width: 100%;
+  height: 10.37vh;
+  bottom: 0;
+  padding: 2.78vh 2.6vw;
+  border-radius: 5.2vw;
+  cursor: pointer;
+  border: 0;
+  background-color: #E6BDBC;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 0.42vw;
+  letter-spacing: 0.078vw;
+  text-transform: uppercase;
+  font-size: 1.56vw;
+  font-family: "Nohemi";
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.buy-now:hover {
+  letter-spacing: 0.36vw;
+  background-color: #F7F4EA;
+  color: black;
+  box-shadow: rgb(230, 188, 188) 0px 0.65vh 1.48vh 0px;
+}
+
+.buy-now:active {
+  letter-spacing: 0.36vw;
+  background-color: #F7F4EA;
+  color: black;
+  box-shadow: rgb(230, 188, 188) 0px 0px 0px 0px;
+  transform: translateY(0.18vh);
+  transition: 100ms;
+}
+
+
+.last-logo img{
+  width: 18.75rem;
+height: 10.875rem;
+flex-shrink: 0;
+aspect-ratio: 50/29;
+margin: 5rem 6.25rem;
+
+}
+
+.footer{
+  position: relative;
+  margin-top: 5rem;
+}
+
+.container1st{
+  position: absolute;
+  margin-top: -13rem;
+  margin-left: 46rem;
+}
+
+.container1st h3{
+  color: #000;
+font-family: "Nohemi";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;    
+}
+
+.container1st ul li{
+  margin: 2.5rem 0 2.5rem 0;
+  padding: 2.5rem auto;
+  list-style: none;
+  color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.container2nd{
+  margin-top: -13rem;
+  margin-left: 73rem;
+}
+
+.container2nd h3{
+  color: #000;
+  font-family: "Nohemi";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container2nd ul li{
+  margin: 2.5rem 0 2.5rem 0;
+  padding: 2.5rem auto;
+  list-style: none;
+  color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.container3rd{
+  margin-top: -20.5rem;
+  margin-left: 97rem;
+}
+
+.container3rd h3{
+  color: #000;
+  font-family: "Nohemi";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container3rd ul li{
+  margin: 2.5rem 0 2.5rem 0;
+  padding: 2.5rem auto;
+  list-style: none;
+  color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.sign-up{
+  position: absolute;
+  margin-left: 6.25rem;
+  margin-top: -8rem;
+}
+
+.sign-up h2{
+  color: #000;
+font-family: "Nohemi";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.sign-up p{
+color: #000;
+font-family: "Nohemi";
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: .69rem;
+}
+
+.desc-title-para-left{
+  margin-left: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 6.25rem;
+}
+
+.desc-title-para-left h2{
+  color: #000;
+font-family: "Nohemi";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3.5;
+
+}
+
+.desc-title-para-left p{
+  width: 50.8125rem;
+  flex-shrink: 0;
+  color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.desc-title-para-right{
+  margin-top: 5rem;
+  margin-left: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.desc-title-para-right h2{
+  color: #000;
+font-family: "Nohemi";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3.5;
+
+}
+
+.desc-title-para-right p{
+  width: 50.8125rem;
+  flex-shrink: 0;
+  color: #000;
+font-family: "Nohemi";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+smooth-scroll {
+  scroll-behavior: smooth;
 }

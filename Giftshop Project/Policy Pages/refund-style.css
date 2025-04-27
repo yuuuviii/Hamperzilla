@@ -229,3 +229,132 @@ nav {
     box-shadow: 0 0 0 3vh #ec9f9e, 0 0 20px #ec9f9e; 
     transition: all 0.3s ease-in-out;
 }
+
+
+.last-logo img{
+    width: 18.75rem;
+  height: 10.875rem;
+  flex-shrink: 0;
+  aspect-ratio: 50/29;
+  margin: 5rem 6.25rem;
+  
+  }
+  
+  .footer{
+    margin-top: 30rem;
+    padding-bottom: 5%;
+  }
+  
+  .container1st{
+    position: absolute;
+    margin-top: -13rem;
+    margin-left: 46rem;
+  }
+  
+  .container1st h3{
+    color: #000;
+  font-family: "Nohemi";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;    
+  }
+  
+  .container1st ul li{
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem auto;
+    list-style: none;
+    color: #000;
+  font-family: "Nohemi";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .container2nd ul li a{
+    text-decoration: none;
+    color: #000;
+  }
+
+  .container2nd{
+    margin-top: -13rem;
+    margin-left: 73rem;
+  }
+  
+  .container2nd h3{
+    color: #000;
+    font-family: "Nohemi";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .container2nd ul li{
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem auto;
+    list-style: none;
+    color: #000;
+  font-family: "Nohemi";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+  .container3rd{
+    margin-top: -20.5rem;
+    margin-left: 97rem;
+  }
+  
+  .container3rd h3{
+    color: #000;
+    font-family: "Nohemi";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .container3rd ul li{
+    margin: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem auto;
+    list-style: none;
+    color: #000;
+  font-family: "Nohemi";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+  .container3rd ul li a{
+    text-decoration: none;
+    color: #000;
+  }
+
+  
+  .sign-up{
+    position: absolute;
+    margin-left: 6.25rem;
+    margin-top: -8rem;
+  }
+  
+  .sign-up h2{
+    color: #000;
+  font-family: "Nohemi";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+  .sign-up p{
+  color: #000;
+  font-family: "Nohemi";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: .69rem;
+  } 
